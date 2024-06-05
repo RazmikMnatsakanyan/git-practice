@@ -8,3 +8,5 @@ function reverseWords(text){
 }
 eshinDgha();
 console.log(reverseWords('eshin dgha'));
+console.log(reverseWords('dgha eshin'));
+console.log(reverseWords('eshin dgha, dgha eshin'))
