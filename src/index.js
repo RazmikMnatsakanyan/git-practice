@@ -1,6 +1,3 @@
-console.log('aaaaaarrrggghhhhh');
-
-
 function reverseWords(text){
   const textArray = text.split();
   let reverseArray
