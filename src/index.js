@@ -1,4 +1,7 @@
-function reverseWords(text){
+function jrhor(text){
+  if(text.length() >= 18){
+    return 'Ary anasun, radd qashi togh gorc anem'
+  }
   const textArray = text.split();
   let reverseArray
   for(let i = 0; i < textArray.length; i++){
@@ -7,6 +10,6 @@ function reverseWords(text){
   return reverseArray.join(' ');
 }
 eshinDgha();
-console.log(reverseWords('eshin dgha'));
-console.log(reverseWords('dgha eshin'));
-console.log(reverseWords('eshin dgha, dgha eshin'))
+console.log(jrhor('eshin dgha'));
+console.log(jrhor('dgha eshin'));
+console.log(jrhor('eshin dgha, dgha eshin'));
